@@ -1,0 +1,175 @@
+https://www.walletbuilders.com/mycoin?coin=c869b4d015c723dc095fbc1451cc9d17d4a18f2ea15699baff
+       This help message
+
+  -conf=<file>
+       Укажите файл конфигурации. Относительные пути будут иметь префикс datadir
+location. (по умолчанию: worldwideweb.conf)
+
+  -datadir=<dir>
+       Укажите каталог данных
+
+  -getinfo
+       Получите общую информацию с удаленного сервера. Обратите внимание, что в отличие
+от вызовов RPC на стороне сервера, результаты-getinfo являются результатом
+нескольких неатомных запросов. Некоторые записи в результате могут
+представлять результаты из разных состояний (например, баланс кошелька может
+быть как из другого блока, так и из сообщенного состояния цепочки)
+
+
+  -named
+       Pass named вместо позиционных аргументов (default: false)
+
+  -rpcclienttimeout=<n>
+       Тайм-аут в секундах при HTTP-запросах или 0 при отсутствии тайм-аута. (по умолчанию:
+ 900)
+
+  -rpcconnect=<ip>
+       Отправка команд узлу, работающему на <ip> (default: 127.0.0.1)
+
+  -rpccookiefile=<loc>
+       Расположение файла cookie auth. Относительные пути будут иметь префикс
+сетевого местоположения datadir. (по умолчанию: data dir)
+
+  -rpcpassword=<pw>
+       Password for JSON-RPC connections
+
+  -rpcport=<port>
+       Connect to JSON-RPC on <port> (default: 31813 or testnet: 41813)
+
+  -rpcuser=<user>
+       Username for JSON-RPC connections
+
+  -rpcwait
+       Дождитесь запуска RPC сервера
+
+  -rpcwallet=<walletname>
+       Отправить RPC для нестандартного кошелька на сервер RPC (необходимо точно соответствовать
+соответствующему параметру-wallet, переданному worldwidewebd)
+
+  -stdin
+       Считывайте дополнительные аргументы из стандартного ввода, по одному на строку до EOF/Ctrl-D
+(рекомендуется для конфиденциальной информации, такой как парольные фразы). В
+сочетании с-stdinrpcpass первая строка стандартного ввода
+используется для пароля RPC.
+
+  -stdinrpcpass
+       Считывание пароля RPC со стандартного ввода в виде одной строки. В сочетании
+с-stdin первая строка стандартного ввода используется для
+пароля RPC.
+
+  -version
+       Print version and exit
+
+Chain selection options:
+
+  -testnet
+       Use the test chain
+
+Error: too few parameters
+
+C:\Program Files\MINE>
+
+
+worldwideweb-cli -getinfo
+
+
+worldwideweb-cli -rpcconnect=127.0.0.1
+       
+
+15:09:27
+￼
+dumpprivkey WUurqFSCpUK3pvRLEHU9tmNprkFS7VLgoz
+
+
+15:09:27
+￼
+Wn2YNW167QNQ2fgq3PjSasTYMeAXidnEijqU7qvN5A3Jju9d1nVQ
+
+worldwideweb-cli -rpcwallet=WUurqFSCpUK3pvRLEHU9tmNprkFS7VLgoz
+worldwideweb-cli -conf=worldwideweb.conf
+worldwideweb-cli -testnet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
